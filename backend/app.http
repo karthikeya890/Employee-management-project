@@ -1,0 +1,31 @@
+GET http://localhost:3005/employees/?search=
+###
+GET http://localhost:3005/employees/?search=soft
+###
+
+PUT http://localhost:3005/employees/1/
+Content-Type: application/json
+
+{
+    "name": "Jacobmay",
+    "gmail": "jacob8924@gmail.com",
+    "role": "Software Engineer",
+    "phoneNo": "+892-53252355",
+    "imageUrl": "https://res.cloudinary.com/dcm21aeqp/image/upload/v1689246553/pexels-min-an-749091_o7ube5.jpg"
+}
+
+####
+###
+POST http://localhost:3005/employees
+Content-Type: application/json
+
+{
+    "name": "karthikeya Maturi",
+    "gmail": "bunnymkk9@gmail.com",
+    "role": "Software Engineer",
+    "phoneNo": "+91-7093498939",
+    "imageUrl": "https://res.cloudinary.com/dcm21aeqp/image/upload/v1662210732/cbfbdf04-779c-4f22-becd-f56eb9b02581_4_obgenx.jpg"
+}
+
+###
+
